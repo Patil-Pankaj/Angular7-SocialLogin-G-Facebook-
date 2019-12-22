@@ -126,15 +126,13 @@ export class LoginComponent implements OnInit {
 
 
 
-In `signin.component.html`,
+In `login.component.html`,
 
 ```html
-<h1>
-     Sign in
-</h1>
 
-<button (click)="socialSignIn('facebook')">Sign in with Facebook</button>
-<button (click)="socialSignIn('google')">Signin in with Google</button>              
+<button (click)="socialSignIn('facebook')" class="loginBtn loginBtn--facebook">  Login with Facebook  </button>
+<button (click)="socialSignIn('google')" class="loginBtn loginBtn--google">  Login with Google  </button>
+              
 ```
 
 
