@@ -1,4 +1,4 @@
-# SocailLogin
+# SocialLogin 
 
 [AOT](https://angular.io/guide/aot-compiler) Compatible.
 
